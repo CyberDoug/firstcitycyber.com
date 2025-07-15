@@ -88,35 +88,15 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-/* Gradient overlay for header */
 header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
-    position: relative;
-    overflow: hidden;
-}
-
-.gradient-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, 
-                rgba(0, 0, 0, 0.6) 0%, 
-                rgba(17, 17, 17, 0.4) 30%, 
-                rgba(17, 17, 17, 0.2) 70%, 
-                rgba(17, 17, 17, 0) 100%);
-    pointer-events: none;
-    z-index: 1;
 }
 
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
-    position: relative;
-    z-index: 2;
 }
 
 header img {
@@ -247,16 +227,16 @@ header .intro-text .skills {
 /* Make active nav items yellow on dark background */
 .navbar-default .navbar-nav>.active>a {
     background-color: #111111 !important; /* Keep dark background */
-    color: #427cbc !important; /* Blue active text */
-    border-bottom: 2px solid #427cbc; /* Blue underline for active item */
+    color: #e7f900 !important; /* Yellow active text */
+    border-bottom: 2px solid #e7f900; /* Yellow underline for active item */
     box-sizing: border-box;
 }
 
 /* Hover state for navbar items */
 .navbar-default .navbar-nav>li>a:hover {
-    color: #427cbc !important; /* Yellow text on hover */
+    color: #e7f900 !important; /* Yellow text on hover */
     background-color: transparent !important;
-    border-bottom: 2px solid #427cbc; /* Yellow underline on hover */
+    border-bottom: 2px solid #e7f900; /* Yellow underline on hover */
 }
 
 section {
