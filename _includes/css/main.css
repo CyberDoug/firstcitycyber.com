@@ -76,11 +76,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary-dark }}; /* Using darker yellow for better contrast */
+    border-color: #{{ site.color.secondary-dark }}; /* Using darker Blue for better contrast */
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary-dark }}; /* Using darker yellow for better contrast */
+    color: #{{ site.color.secondary-dark }}; /* Using darker Blue for better contrast */
     background-color: #fff;
 }
 
@@ -224,19 +224,19 @@ header .intro-text .skills {
     }
 }
 
-/* Make active nav items yellow on dark background */
+/* Make active nav items Blue on dark background */
 .navbar-default .navbar-nav>.active>a {
     background-color: #111111 !important; /* Keep dark background */
-    color: #e7f900 !important; /* Yellow active text */
-    border-bottom: 2px solid #e7f900; /* Yellow underline for active item */
+    color: #427cbc !important; /* Blue active text */
+    border-bottom: 2px solid #427cbc; /* Blue underline for active item */
     box-sizing: border-box;
 }
 
 /* Hover state for navbar items */
 .navbar-default .navbar-nav>li>a:hover {
-    color: #e7f900 !important; /* Yellow text on hover */
+    color: #427cbc !important; /* Blue text on hover */
     background-color: transparent !important;
-    border-bottom: 2px solid #e7f900; /* Yellow underline on hover */
+    border-bottom: 2px solid #427cbc; /* Blue underline on hover */
 }
 
 section {
@@ -249,7 +249,7 @@ section h2 {
 }
 
 section.success {
-    color: #111111; /* Changed from white to dark gray for better contrast on yellow background */
+    color: #111111; /* Changed from white to dark gray for better contrast on Blue background */
     background: #{{ site.color.secondary }};
 }
 
@@ -405,7 +405,7 @@ section.success {
 }
 
 .btn-success {
-    color: #111111 !important; /* Dark text on yellow buttons */
+    color: #111111 !important; /* Dark text on Blue buttons */
     background-color: #{{ site.color.secondary }};
     border-color: #{{ site.color.secondary }};
 }
